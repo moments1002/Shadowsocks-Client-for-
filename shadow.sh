@@ -13,11 +13,11 @@ if [ "$1"x = "12515805sx" ]; then
     curl -k https://github.com/moments1002/Shadowsocks-Client-for-/blob/master/hiwifi-ss.tar.gz
 else
     echo ">1.2.5.15805s"
- +    curl -k https://github.com/moments1002/Shadowsocks-Client-for-/blob/master/hiwifi-ss.tar.gz -o hiwifi-ss.tar.gz
- +#    download_url=$(/usr/bin/curl -k https://https://github.com/moments1002/Shadowsocks-Client-for-/blob/master/hiwifi-ss.tar.gz)
- +#    echo ''
- +#    echo ${download_url}
- +#    curl -OkL ${download_url}
+    curl -k https://github.com/moments1002/Shadowsocks-Client-for-/blob/master/hiwifi-ss.tar.gz -o hiwifi-ss.tar.gz
+#    download_url=$(/usr/bin/curl -k https://https://github.com/moments1002/Shadowsocks-Client-for-/blob/master/hiwifi-ss.tar.gz)
+#    echo ''
+#    echo ${download_url}
+#    curl -OkL ${download_url}
 fi
 echo 'Done! 下载完成'
 echo ''
